@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		656919B0242DFACE00E0AC5F /* GCDGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 656919AF242DFACE00E0AC5F /* GCDGroupVC.m */; };
+		656919B3242E03CC00E0AC5F /* GCDBarrierVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 656919B2242E03CC00E0AC5F /* GCDBarrierVC.m */; };
 		65AB4185242CA8AA00304E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB4184242CA8AA00304E5E /* AppDelegate.m */; };
 		65AB4188242CA8AA00304E5E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB4187242CA8AA00304E5E /* SceneDelegate.m */; };
 		65AB418B242CA8AA00304E5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB418A242CA8AA00304E5E /* ViewController.m */; };
@@ -24,6 +25,8 @@
 /* Begin PBXFileReference section */
 		656919AE242DFACE00E0AC5F /* GCDGroupVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDGroupVC.h; sourceTree = "<group>"; };
 		656919AF242DFACE00E0AC5F /* GCDGroupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroupVC.m; sourceTree = "<group>"; };
+		656919B1242E03CC00E0AC5F /* GCDBarrierVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDBarrierVC.h; sourceTree = "<group>"; };
+		656919B2242E03CC00E0AC5F /* GCDBarrierVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDBarrierVC.m; sourceTree = "<group>"; };
 		65AB4180242CA8AA00304E5E /* MultiThreadLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiThreadLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AB4183242CA8AA00304E5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65AB4184242CA8AA00304E5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				65AB41A7242CBC1500304E5E /* GCDApplyVC.m */,
 				656919AE242DFACE00E0AC5F /* GCDGroupVC.h */,
 				656919AF242DFACE00E0AC5F /* GCDGroupVC.m */,
+				656919B1242E03CC00E0AC5F /* GCDBarrierVC.h */,
+				656919B2242E03CC00E0AC5F /* GCDBarrierVC.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				65AB4196242CA8AB00304E5E /* main.m in Sources */,
 				65AB41A2242CAF0900304E5E /* GCDOnceVC.m in Sources */,
 				65AB4188242CA8AA00304E5E /* SceneDelegate.m in Sources */,
+				656919B3242E03CC00E0AC5F /* GCDBarrierVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
