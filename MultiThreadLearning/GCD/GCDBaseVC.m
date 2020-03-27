@@ -10,6 +10,7 @@
 #import "GCDOnceVC.h"
 #import "GCDAfterVC.h"
 #import "GCDApplyVC.h"
+#import "GCDGroupVC.h"
 
 @interface GCDBaseVC ()
 
@@ -53,6 +54,9 @@
         [self.navigationController pushViewController:vc animated:YES];
     } else if (indexPath.row == 4) {
         GCDApplyVC *vc = [[GCDApplyVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 3) {
+        GCDGroupVC *vc = [[GCDGroupVC alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

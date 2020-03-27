@@ -21,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"Dispatch After";
     [self.view addSubview:self.textField];
     [self.view addSubview:self.button];
 }

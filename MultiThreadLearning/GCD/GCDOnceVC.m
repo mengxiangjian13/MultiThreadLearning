@@ -20,6 +20,8 @@ static NSInteger someNum = 0;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.title = @"Dispatch Once";
+    
     NSLog(@"======= GCDOnceVC Begin =======");
     NSLog(@"the some number is: %ld at the start!", (long)someNum);
     

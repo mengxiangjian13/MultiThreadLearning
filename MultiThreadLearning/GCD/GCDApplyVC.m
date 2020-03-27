@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"Dispatch Apply";
     
     UIButton *syncButton = [self buttonWithFrame:CGRectMake(0, 0, 100, 50)
                                            title:@"串行队列"
@@ -52,6 +53,7 @@
 }
 
 - (void)syncDispatchApply {
+    // 使用main queue会死锁
     dispatch_queue_t queue = dispatch_queue_create("com.mengxiangjian.gcd", DISPATCH_QUEUE_SERIAL);
     [self dispatchApplyWithQueue:queue];
 }
