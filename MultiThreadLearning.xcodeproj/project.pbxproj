@@ -10,6 +10,8 @@
 		656919B0242DFACE00E0AC5F /* GCDGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 656919AF242DFACE00E0AC5F /* GCDGroupVC.m */; };
 		656919B3242E03CC00E0AC5F /* GCDBarrierVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 656919B2242E03CC00E0AC5F /* GCDBarrierVC.m */; };
 		656B867E242F27A100A1815A /* GCDSyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B867D242F27A100A1815A /* GCDSyncVC.m */; };
+		656B8681242F331600A1815A /* GCDSemaphoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B8680242F331600A1815A /* GCDSemaphoreVC.m */; };
+		656B8684242F391100A1815A /* UIViewController+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B8683242F391100A1815A /* UIViewController+Button.m */; };
 		65AB4185242CA8AA00304E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB4184242CA8AA00304E5E /* AppDelegate.m */; };
 		65AB4188242CA8AA00304E5E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB4187242CA8AA00304E5E /* SceneDelegate.m */; };
 		65AB418B242CA8AA00304E5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB418A242CA8AA00304E5E /* ViewController.m */; };
@@ -30,6 +32,10 @@
 		656919B2242E03CC00E0AC5F /* GCDBarrierVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDBarrierVC.m; sourceTree = "<group>"; };
 		656B867C242F27A100A1815A /* GCDSyncVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDSyncVC.h; sourceTree = "<group>"; };
 		656B867D242F27A100A1815A /* GCDSyncVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDSyncVC.m; sourceTree = "<group>"; };
+		656B867F242F331600A1815A /* GCDSemaphoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDSemaphoreVC.h; sourceTree = "<group>"; };
+		656B8680242F331600A1815A /* GCDSemaphoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphoreVC.m; sourceTree = "<group>"; };
+		656B8682242F391100A1815A /* UIViewController+Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Button.h"; sourceTree = "<group>"; };
+		656B8683242F391100A1815A /* UIViewController+Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Button.m"; sourceTree = "<group>"; };
 		65AB4180242CA8AA00304E5E /* MultiThreadLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiThreadLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AB4183242CA8AA00304E5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65AB4184242CA8AA00304E5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +94,8 @@
 				65AB4187242CA8AA00304E5E /* SceneDelegate.m */,
 				65AB4189242CA8AA00304E5E /* ViewController.h */,
 				65AB418A242CA8AA00304E5E /* ViewController.m */,
+				656B8682242F391100A1815A /* UIViewController+Button.h */,
+				656B8683242F391100A1815A /* UIViewController+Button.m */,
 				65AB419C242CAD0A00304E5E /* GCD */,
 				65AB418C242CA8AA00304E5E /* Main.storyboard */,
 				65AB418F242CA8AB00304E5E /* Assets.xcassets */,
@@ -115,6 +123,8 @@
 				656919B2242E03CC00E0AC5F /* GCDBarrierVC.m */,
 				656B867C242F27A100A1815A /* GCDSyncVC.h */,
 				656B867D242F27A100A1815A /* GCDSyncVC.m */,
+				656B867F242F331600A1815A /* GCDSemaphoreVC.h */,
+				656B8680242F331600A1815A /* GCDSemaphoreVC.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -196,9 +206,11 @@
 				65AB418B242CA8AA00304E5E /* ViewController.m in Sources */,
 				65AB4185242CA8AA00304E5E /* AppDelegate.m in Sources */,
 				65AB41A8242CBC1500304E5E /* GCDApplyVC.m in Sources */,
+				656B8684242F391100A1815A /* UIViewController+Button.m in Sources */,
 				65AB4196242CA8AB00304E5E /* main.m in Sources */,
 				65AB41A2242CAF0900304E5E /* GCDOnceVC.m in Sources */,
 				65AB4188242CA8AA00304E5E /* SceneDelegate.m in Sources */,
+				656B8681242F331600A1815A /* GCDSemaphoreVC.m in Sources */,
 				656919B3242E03CC00E0AC5F /* GCDBarrierVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

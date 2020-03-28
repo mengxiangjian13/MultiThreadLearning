@@ -13,6 +13,7 @@
 #import "GCDGroupVC.h"
 #import "GCDBarrierVC.h"
 #import "GCDSyncVC.h"
+#import "GCDSemaphoreVC.h"
 
 @interface GCDBaseVC ()
 
@@ -65,6 +66,9 @@
         [self.navigationController pushViewController:vc animated:YES];
     } else if (indexPath.row == 0) {
         GCDSyncVC *vc = [[GCDSyncVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 6) {
+        GCDSemaphoreVC *vc = [[GCDSemaphoreVC alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

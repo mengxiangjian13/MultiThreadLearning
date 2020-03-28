@@ -7,6 +7,7 @@
 //
 
 #import "GCDGroupVC.h"
+#import "UIViewController+Button.h"
 
 @interface GCDGroupVC ()
 
@@ -30,16 +31,6 @@
                                           action:@selector(wait:)];
     waitButton.center = CGPointMake(CGRectGetMidX(self.view.bounds), 300);
     [self.view addSubview:waitButton];
-}
-
-- (UIButton *)buttonWithFrame:(CGRect)frame
-                        title:(NSString *)title
-                       action:(SEL)action {
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    button.frame = frame;
-    [button setTitle:title forState:UIControlStateNormal];
-    [button addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
-    return button;
 }
 
 - (void)notify:(id)sender {

@@ -7,6 +7,7 @@
 //
 
 #import "GCDSyncVC.h"
+#import "UIViewController+Button.h"
 
 @interface GCDSyncVC ()
 
@@ -50,16 +51,6 @@
                                                 action:@selector(asyncMain:)];
     [self.view addSubview:asyncMainButton];
     
-}
-
-- (UIButton *)buttonWithFrame:(CGRect)frame
-                        title:(NSString *)title
-                       action:(SEL)action {
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    button.frame = frame;
-    [button setTitle:title forState:UIControlStateNormal];
-    [button addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
-    return button;
 }
 
 #pragma mark -

@@ -7,6 +7,7 @@
 //
 
 #import "GCDApplyVC.h"
+#import "UIViewController+Button.h"
 
 @interface GCDApplyVC ()
 
@@ -31,16 +32,6 @@
                                           action:@selector(asyncDispatchApply)];
     asyncButton.center = CGPointMake(CGRectGetMidX(self.view.bounds), 400);
     [self.view addSubview:asyncButton];
-}
-
-- (UIButton *)buttonWithFrame:(CGRect)frame
-                        title:(NSString *)title
-                       action:(SEL)action {
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    button.frame = frame;
-    [button setTitle:title forState:UIControlStateNormal];
-    [button addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
-    return button;
 }
 
 - (void)dispatchApplyWithQueue:(dispatch_queue_t)queue {
