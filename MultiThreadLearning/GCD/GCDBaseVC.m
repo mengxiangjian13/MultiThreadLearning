@@ -12,6 +12,7 @@
 #import "GCDApplyVC.h"
 #import "GCDGroupVC.h"
 #import "GCDBarrierVC.h"
+#import "GCDSyncVC.h"
 
 @interface GCDBaseVC ()
 
@@ -61,6 +62,9 @@
         [self.navigationController pushViewController:vc animated:YES];
     } else if (indexPath.row == 1) {
         GCDBarrierVC *vc = [[GCDBarrierVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 0) {
+        GCDSyncVC *vc = [[GCDSyncVC alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
